@@ -1,3 +1,19 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [0.51.1](https://github.com/justeat/fozzie-components/compare/@justeat/f-registration@0.51.0...@justeat/f-registration@0.51.1) (2021-04-16)
+
+
+### Bug Fixes
+
+* **fozzie-components:** fix formatting of all changelogs ([5301ad6](https://github.com/justeat/fozzie-components/commit/5301ad6fd4f2783c5894177dc1f6e9dbe639d1fb))
+
+
+
+
+
 # [0.51.0](https://github.com/justeat/fozzie-components/compare/v1.0.0...v0.51.0) (2021-04-16)
 
 
