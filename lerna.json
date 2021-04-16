@@ -17,6 +17,6 @@
     }
   },
   "changelogPreset": "angular",
-  "ignoreChanges": ["**/*.md"],
+  "ignoreChanges": ["**/*.md", "**/*.spec.js"],
   "useWorkspaces": true
 }
