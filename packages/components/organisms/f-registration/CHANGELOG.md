@@ -1,4 +1,4 @@
-# [0.50.0](https://github.com/justeat/fozzie-components/compare/v1.0.0...v0.50.0) (2021-04-16)
+# [0.51.0](https://github.com/justeat/fozzie-components/compare/v1.0.0...v0.51.0) (2021-04-16)
 
 
 ### Bug Fixes
@@ -16,9 +16,6 @@
 * **fozzie-components:** enforce conventional commits with husky hook ([3d8f4aa](https://github.com/justeat/fozzie-components/commit/3d8f4aa6e0a05273d5962fae3937ac281aebce70))
 * **fozzie-components:** runs linting against changed packages ([75fdfb6](https://github.com/justeat/fozzie-components/commit/75fdfb6546224ebb8621deadecd911f2cb96dfc8))
 
-
-v0.51.0
-------------------------------
 *April 15, 2021*
 
 ### Changes
