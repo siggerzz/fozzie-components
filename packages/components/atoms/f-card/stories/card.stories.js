@@ -1,6 +1,7 @@
 import { withA11y } from '@storybook/addon-a11y';
 import Card from '../src/components/Card.vue';
 
+// fake fix to story file
 export default {
     title: 'Components/Atoms',
     decorators: [withA11y],
