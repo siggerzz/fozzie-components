@@ -10,10 +10,10 @@
     "packages/tools/*"
   ],
   "command": {
-    "publish": {
+    "version": {
+      "allowBranch": "master",
       "conventionalCommits": true,
-      "message": "chore(release): publish",
-      "registry": "http://localhost:4873"
+      "message": "chore(release): version bump"
     }
   },
   "changelogPreset": "angular",
