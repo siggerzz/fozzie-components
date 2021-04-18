@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.4](https://github.com/justeat/fozzie-components/compare/@justeat/f-skeleton-loader@0.4.3...@justeat/f-skeleton-loader@0.4.4) (2021-04-18)
+
+**Note:** Version bump only for package @justeat/f-skeleton-loader
+
+
+
+
+
 ## 0.4.3 (2021-04-16)
 
 
