@@ -11,6 +11,7 @@
   ],
   "command": {
     "version": {
+      "allowBranch": ["master"],
       "conventionalCommits": true,
       "message": "chore(release): version bump"
     }
