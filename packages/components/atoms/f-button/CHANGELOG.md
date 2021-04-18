@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/justeat/fozzie-components/compare/@justeat/f-button@1.1.5...@justeat/f-button@1.2.0) (2021-04-18)
+
+
+### Bug Fixes
+
+* **f-button:** fix a thing in f-button test ([f04b213](https://github.com/justeat/fozzie-components/commit/f04b2136de35801ed6a5ad0ebdfd5b2498da531e))
+
+
+### Features
+
+* **f-button:** new feat to storybook file ([bf0fadd](https://github.com/justeat/fozzie-components/commit/bf0fadd4af167dac8519d6fe8cecc617aac532dd))
+
+
+
+
+
 ## 1.1.5 (2021-04-18)
 
 
