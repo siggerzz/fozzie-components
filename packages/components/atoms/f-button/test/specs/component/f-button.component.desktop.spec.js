@@ -1,5 +1,4 @@
 const Button = require('../../../test-utils/component-objects/f-button.component');
-
 const button = new Button();
 
 describe('f-button component tests', () => {
