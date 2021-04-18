@@ -7,6 +7,7 @@ import {
 import { withA11y } from '@storybook/addon-a11y';
 import FButton from '../src/components/Button.vue';
 
+// fake fix in f-button
 export default {
     title: 'Components/Atoms/f-button',
     decorators: [withKnobs, withA11y]
