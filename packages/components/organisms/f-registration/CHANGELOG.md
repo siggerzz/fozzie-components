@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.52.0](https://github.com/justeat/fozzie-components/compare/@justeat/f-registration@0.51.2...@justeat/f-registration@0.52.0) (2021-04-19)
+
+
+### Features
+
+* added new feature ([f37ee3f](https://github.com/justeat/fozzie-components/commit/f37ee3f1abfcbb04e94d4cfa8424e523cabd08e8))
+
+
+
+
+
 ## [0.51.2](https://github.com/justeat/fozzie-components/compare/@justeat/f-registration@0.51.1...@justeat/f-registration@0.51.2) (2021-04-18)
 
 **Note:** Version bump only for package @justeat/f-registration

@@ -1,3 +1,24 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 1.2.0 (2021-04-19)
+
+
+### Bug Fixes
+
+* **fozzie-components:** fix formatting of all changelogs ([5301ad6](https://github.com/justeat/fozzie-components/commit/5301ad6fd4f2783c5894177dc1f6e9dbe639d1fb))
+
+
+### Features
+
+* **f-card:** new feature to storybook file ([905ab3f](https://github.com/justeat/fozzie-components/commit/905ab3f9e73ebacaa2a619a0a94c4ee145513d88))
+
+
+
+
+
 # [1.1.0](https://github.com/justeat/fozzie-components/compare/v1.0.0...v1.1.0) (2021-04-16)
 
 
