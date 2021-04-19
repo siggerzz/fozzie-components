@@ -20,6 +20,7 @@ module.exports = api => {
         // use current node version for transpiling test files
         presets.push(['@babel/env', { targets: { node: 'current' } }]);
     }
+    // fake feature
 
     return {
         presets,
