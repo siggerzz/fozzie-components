@@ -1,3 +1,19 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## 0.1.1 (2021-04-28)
+
+
+### Bug Fixes
+
+* fix jest config in f-http ([68a0a98](https://github.com/justeat/fozzie-components/commit/68a0a98b6ee593f848c2e516c30292905303fb61))
+
+
+
+
+
 # [0.1.0](https://github.com/justeat/fozzie-components/compare/v1.0.0...v0.1.0) (2021-04-28)
 
 

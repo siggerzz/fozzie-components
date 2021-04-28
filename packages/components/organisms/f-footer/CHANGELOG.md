@@ -1,3 +1,19 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## 4.19.1 (2021-04-28)
+
+
+### Bug Fixes
+
+* **fozzie-components:** fix formatting of all changelogs ([5301ad6](https://github.com/justeat/fozzie-components/commit/5301ad6fd4f2783c5894177dc1f6e9dbe639d1fb))
+
+
+
+
+
 # [4.18.0](https://github.com/justeat/fozzie-components/compare/v1.0.0...v4.18.0) (2021-04-16)
 
 
