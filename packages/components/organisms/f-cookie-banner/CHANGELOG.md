@@ -78,6 +78,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+v0.7.1
+------------------------------
+*April 22, 2021*
+
+### Changed
+- Added is-visuallyHidden CSS to Legacy Banner
+- Add locale prop to usage documentation in README
+
+
 v0.7.0
 ------------------------------
 *April 8, 2021*

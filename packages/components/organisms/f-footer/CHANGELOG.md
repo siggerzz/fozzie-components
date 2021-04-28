@@ -18,6 +18,20 @@
 
 
 
+v4.19.0
+------------------------------
+*April 15, 2021*
+
+### Changed
+- Expander buttons are present only for narrow screens 
+
+### Added
+- Tests to cover this change
+
+### Fixed
+- Window resize before each test. Resize events shouldn't be throttled in tests, but they were before the fix.
+
+
 v4.18.0
 ------------------------------
 *April 12, 2021*
