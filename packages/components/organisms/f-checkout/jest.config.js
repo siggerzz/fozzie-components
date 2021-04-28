@@ -1,4 +1,5 @@
 module.exports = {
+    // Fix
     moduleFileExtensions: [
         'js',
         'json',
