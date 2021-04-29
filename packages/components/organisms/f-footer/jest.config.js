@@ -1,5 +1,6 @@
-module.exports = { 
+module.exports = {
     // Fix
+    // Chore
     moduleFileExtensions: [
         'js',
         'json',
