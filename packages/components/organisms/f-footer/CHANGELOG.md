@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.19.2](https://github.com/justeat/fozzie-components/compare/@justeat/f-footer@4.19.1...@justeat/f-footer@4.19.2) (2021-04-29)
+
+
+### Bug Fixes
+
+* fixes a thing in jest config ([93febec](https://github.com/justeat/fozzie-components/commit/93febec99d6215ff95a1739a2fb8a596da6ab5a4))
+
+
+
+
+
 ## 4.19.1 (2021-04-28)
 
 
