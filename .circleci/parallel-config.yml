@@ -24,7 +24,7 @@
 #     steps:
 #       - run: # Check UI packages all build as expected
 #           name: Build Packages
-#           command: yarn build
+#           command: yarn build --since origin/master
 
 #   slack_notify_fail:
 #     description: Sends a slack notifaction on job failure
@@ -193,7 +193,7 @@
 #               - working-directory-dist{{ .Branch }}-{{ .Revision }}
 #       - run: # Lint packages
 #           name: Run Lint Tasks on Packages
-#           command: yarn lint
+#           command: yarn lint --since origin/master
     
 #   unit_tests:
 #     executor: node
@@ -208,7 +208,7 @@
 #               - working-directory-dist{{ .Branch }}-{{ .Revision }}
 #       - run: # Run Tests
 #           name: Run Unit / Integration Tests
-#           command: yarn test
+#           command: yarn test --since origin/master
 
 #   component_tests:
 #     executor: node
@@ -228,7 +228,7 @@
 #           command: yarn test:wait-for-server
 #       - run: # Run Component UI Tests
 #           name: Run WebDriverIO Component
-#           command: yarn test-component:chrome
+#           command: yarn test-component:chrome --since origin/master
 #       - store_artifacts:
 #           path: test/results/allure/failure-videos
 #       - store_test_results:
@@ -252,7 +252,7 @@
 #           command: yarn test:wait-for-server
 #       - run: # Run Accessibility UI Tests
 #           name: Run WebDriverIO Accessibility Tests
-#           command: yarn test-a11y:chrome
+#           command: yarn test-a11y:chrome --since origin/master
 #       - store_artifacts:
 #           path: tests/results/axe-violations
 #       - store_test_results:

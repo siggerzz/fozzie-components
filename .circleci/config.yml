@@ -24,7 +24,7 @@ commands:
     steps:
       - run: # Check UI packages all build as expected
           name: Build Packages
-          command: yarn build
+          command: yarn build --since origin/master
 
   slack_notify_fail:
     description: Sends a slack notifaction on job failure
@@ -163,10 +163,10 @@ jobs:
       - build_packages
       - run: # Lint packages
           name: Run Lint Tasks on Packages
-          command: yarn lint
+          command: yarn lint --since origin/master
       - run: # Run Tests
           name: Run Unit / Integration Tests
-          command: yarn test
+          command: yarn test --since origin/master
       - run: # Install Component Test Dependencies
           name: Install Component Test Dependencies
           command: yarn global add @vue/cli @vue/cli-service-global
@@ -179,13 +179,13 @@ jobs:
           background: true
       - run: # Run Component UI Tests
           name: Run WebDriverIO Component Tests
-          command: yarn test-component:chrome
+          command: yarn test-component:chrome --since origin/master
       - run: # Run Accessibility UI Tests
           name: Run WebDriverIO Accessibility Tests
-          command: yarn test-a11y:chrome
+          command: yarn test-a11y:chrome --since origin/master
       - run: # Run Visual Regression Tests
           name: Run Percy Visual Regression Tests
-          command: yarn test:visual
+          command: yarn test:visual --since origin/master
       - store_artifacts:
           path: test/results/axe-violations
       - store_artifacts:
