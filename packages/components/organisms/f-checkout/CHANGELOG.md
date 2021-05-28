@@ -24,6 +24,14 @@ v0.116.0
 - Output the tag: 'checkout' with all log messages
 
 
+Latest (add to next release)
+------------------------------
+*May 28, 2021*
+
+### Added
+- `serviceType` to data-test-id
+
+
 v0.123.0
 ------------------------------
 *May 27, 2021*
@@ -64,7 +72,6 @@ v0.119.0
 ### Added
 - Ability to handle orders with the service type `dinein`
 - Table number/name input field
-
 
 v0.118.1
 ------------------------------
