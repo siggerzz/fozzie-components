@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.123.1](https://github.com/justeat/fozzie-components/compare/@justeat/f-checkout@0.116.1...@justeat/f-checkout@0.123.1) (2021-05-28)
+
+**Note:** Version bump only for package @justeat/f-checkout
+
+
+
+
+
 ## [0.116.1](https://github.com/justeat/fozzie-components/compare/@justeat/f-checkout@0.113.0...@justeat/f-checkout@0.116.1) (2021-05-20)
 
 **Note:** Version bump only for package @justeat/f-checkout

@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.34.2](https://github.com/justeat/fozzie-components/compare/@justeat/storybook@0.34.1...@justeat/storybook@0.34.2) (2021-05-28)
+
+**Note:** Version bump only for package @justeat/storybook
+
+
+
+
+
 ## 0.34.1 (2021-05-20)
 
 

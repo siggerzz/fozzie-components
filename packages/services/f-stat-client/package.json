@@ -1,7 +1,7 @@
 {
   "name": "@justeat/f-stat-client",
   "description": "Javascript HTTP client for publishing stats to ElasticSearch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "src/index.js",
   "files": [
     "src"

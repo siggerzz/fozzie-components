@@ -1,3 +1,16 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [0.1.1](https://github.com/justeat/fozzie-components/compare/@justeat/f-takeawaypay-activation@0.1.1...@justeat/f-takeawaypay-activation@0.1.1) (2021-05-28)
+
+**Note:** Version bump only for package @justeat/f-takeawaypay-activation
+
+
+
+
+
 # Changelog
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
