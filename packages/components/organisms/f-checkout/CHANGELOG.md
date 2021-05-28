@@ -24,6 +24,83 @@ v0.116.0
 - Output the tag: 'checkout' with all log messages
 
 
+v0.123.0
+------------------------------
+*May 27, 2021*
+
+### Added
+- Logging of place order error code
+
+
+v0.122.0
+------------------------------
+*May 27, 2021*
+
+### Changed
+- f-card package version updated to 1.2.1 to include card footer for T&C
+- T&C styles were cleaned up
+
+
+v0.121.0
+------------------------------
+*May 24, 2021*
+
+### Updated
+- Logging to include traceID from server
+
+
+v0.120.0
+------------------------------
+*May 26, 2021*
+
+### Changed
+- CSS variables to use pie design tokens instead of fozzie-colour-palette vars
+
+
+v0.119.0
+------------------------------
+*May 24, 2021*
+
+### Added
+- Ability to handle orders with the service type `dinein`
+- Table number/name input field
+
+
+v0.118.1
+------------------------------
+*May 24, 2021*
+
+### Changed
+- Check mobile number exists before formatting for screen reader
+
+
+v0.118.0
+------------------------------
+*May 21, 2021*
+
+### Updated
+- `f-mega-modal` to version 0.9.0 to include `title` prop
+
+### Changed
+- Refactor ErrorDialog to use `title` prop in `f-mega-modal`
+
+
+v0.117.0
+------------------------------
+*May 20, 2021*
+
+### Added
+- Aria label with structured mobile number for screen readers
+
+
+v0.116.0
+------------------------------
+*May 18, 2021*
+
+### Changed
+- Output the tag: 'checkout' with all log messages
+
+
 v0.115.0
 ------------------------------
 *May 18, 2021*
