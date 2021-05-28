@@ -15,7 +15,7 @@ commands:
     steps:
       - run: # Check UI packages all build as expected
           name: Build Packages
-          command: yarn build
+          command: yarn build --since origin/master
 
 executors:
   node:
@@ -47,7 +47,7 @@ jobs:
           command: yarn global add @vue/cli @vue/cli-service-global
       - run: # Build Storybook
           name: Build Storybook
-          command: yarn storybook:build
+          command: yarn storybook:build-changed
       - run: # Serve Storybook
           name: Serve Storybook
           command: yarn storybook:serve-static

@@ -172,7 +172,7 @@
 #           command: yarn global add @vue/cli @vue/cli-service-global
 #       - run: # Build Storybook
 #           name: Build Storybook
-#           command: yarn storybook:build
+#           command: yarn storybook:build-changed
 #       - save_cache:
 #           name: Save Working Directory + Bundles Cache
 #           key: working-directory-dist{{ .Branch }}-{{ .Revision }}
