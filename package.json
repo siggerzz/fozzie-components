@@ -94,7 +94,7 @@
     "eslint-plugin-webdriverio": "1.0.1",
     "eyeglass": "3.0.3",
     "husky": "6.0.0",
-    "include-media": "1.4.9",
+    "include-media": "1.4.10",
     "lerna": "3.22.1",
     "mocha-each": "2.0.1",
     "mocha-tags": "1.0.1",
