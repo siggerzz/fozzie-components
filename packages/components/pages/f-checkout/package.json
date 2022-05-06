@@ -58,7 +58,7 @@
     "axios": "0.21.1",
     "jwt-decode": "3.1.2",
     "vue-scrollto": "2.20.0",
-    "vuelidate": "0.7.6"
+    "vuelidate": "0.7.7"
   },
   "peerDependencies": {
     "@justeat/browserslist-config-fozzie": ">=1.1.1",
