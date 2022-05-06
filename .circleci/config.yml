@@ -66,7 +66,7 @@ commands:
             then
               yarn << parameters.command_name >>
             else
-              yarn << parameters.command_name >> --since master...HEAD
+              yarn << parameters.command_name >> --since=master...HEAD
             fi
 
   run_command_plus_dependencies:
@@ -84,116 +84,8 @@ commands:
             then
               yarn << parameters.command_name >>
             else
-              yarn << parameters.command_name >> --since master...HEAD --include-dependencies
+              yarn << parameters.command_name >> --since=master...HEAD --include-dependencies
             fi
-
-  save_cache_dist_directories:
-    description: Saves cache for dist directories
-    steps:
-      - save_cache:
-          name: Cache for molecules
-          key: build-cache-molecules-{{ .Branch }}-{{ .Revision }}
-          paths:
-            - packages/tools/f-vue-icons/dist
-            - packages/components/molecules/f-alert/dist
-            - packages/components/molecules/f-breadcrumbs/dist
-            - packages/components/molecules/f-card-with-content/dist
-            - packages/components/molecules/f-media-element/dist
-            - packages/components/molecules/f-mega-modal/dist
-            - packages/components/molecules/f-navigation-links/dist
-            - packages/components/molecules/f-promotions-showcase/dist
-            - packages/components/molecules/f-restaurant-card/dist
-            - packages/components/molecules/f-searchbox/dist
-            - packages/components/molecules/f-skeleton-loader/dist
-            - packages/components/molecules/f-tabs/dist
-            - packages/components/molecules/f-user-message/dist
-
-      - save_cache:
-          name: Cache for atoms
-          key: build-cache-atoms-{{ .Branch }}-{{ .Revision }}
-          paths:
-            - packages/components/atoms/f-button/dist
-            - packages/components/atoms/f-card/dist
-            - packages/components/atoms/f-error-message/dist
-            - packages/components/atoms/f-form-field/dist
-            - packages/components/atoms/f-link/dist
-            - packages/components/atoms/f-popover/dist
-            - packages/components/atoms/f-image-tile/dist
-            - packages/components/atoms/f-spinner/dist
-            - packages/components/atoms/f-error-boundary/dist
-            - packages/components/atoms/f-filter-pill/dist
-
-      - save_cache:
-          name: Cache for organisms
-          key: build-cache-organisms-{{ .Branch }}-{{ .Revision }}
-          paths:
-            - packages/components/organisms/f-content-cards/dist
-            - packages/components/organisms/f-cookie-banner/dist
-            - packages/components/organisms/f-footer/dist
-            - packages/components/organisms/f-form/dist
-            - packages/components/organisms/f-header/dist
-            - packages/components/organisms/f-status-banner/dist
-
-      - save_cache:
-          name: Cache for templates
-          key: build-cache-templates-{{ .Branch }}-{{ .Revision }}
-          paths:
-            - packages/components/templates/f-template-subnav/dist
-
-      - save_cache:
-          name: Cache for pages
-          key: build-cache-pages-{{ .Branch }}-{{ .Revision }}
-          paths:
-            - packages/components/pages/f-checkout/dist
-            - packages/components/pages/f-contact-preferences/dist
-            - packages/components/pages/f-loyalty/dist
-            - packages/components/pages/f-offers/dist
-            - packages/components/pages/f-registration/dist
-            - packages/components/pages/f-takeawaypay-activation/dist
-            - packages/components/pages/f-account-info/dist
-
-      - save_cache:
-          name: Cache for services
-          key: build-cache-services-{{ .Branch }}-{{ .Revision }}
-          paths:
-            - packages/services/f-analytics/dist
-            - packages/services/f-braze-adapter/dist
-            - packages/services/f-compatibility/dist
-            - packages/services/f-consumer-oidc/dist
-            - packages/services/f-feature-management/dist
-            - packages/services/f-globalisation/dist
-            - packages/services/f-http/dist
-            - packages/services/f-services/dist
-            - packages/services/f-performance/dist
-            - packages/services/f-statistics/dist
-
-  restore_cache_dist_directories:
-    description: Restores all the dist dircetories
-    steps:
-      - restore_cache:
-          name: Restore molecules Cache
-          keys:
-            - build-cache-molecules-master-
-      - restore_cache:
-          name: Restore atoms Cache
-          keys:
-            - build-cache-atoms-master-
-      - restore_cache:
-          name: Restore organisms Cache
-          keys:
-            - build-cache-organisms-master-
-      - restore_cache:
-          name: Restore pages Cache
-          keys:
-            - build-cache-templates-master-
-      - restore_cache:
-          name: Restore pages Cache
-          keys:
-            - build-cache-pages-master-
-      - restore_cache:
-          name: Restore services Cache
-          keys:
-            - build-cache-services-master-
 
   build_packages:
     description: Locally builds all packages in the monorepo
@@ -269,7 +161,7 @@ commands:
               then
                 yarn ci:test:visual:<< parameters.component_type >>
               else
-                yarn ci:test:visual:<< parameters.component_type >> --since master...HEAD
+                yarn ci:test:visual:<< parameters.component_type >> --since=master...HEAD
               fi
             else
               echo Skipping visual regression tests because PR is either in draft mode or has wip label applied
@@ -383,7 +275,7 @@ executors:
   node:
     docker:
       # specify the version you desire here
-      - image: circleci/node:14.18.1-browsers # For latest available images check – https://circleci.com/docs/2.0/docker-image-tags.json
+      - image: cimg/node:14.18.1-browsers # For latest available images check – https://circleci.com/docs/2.0/docker-image-tags.json
 
     resource_class: large
 
@@ -395,10 +287,9 @@ jobs:
     executor: node
     environment:
       # required to prevent ENOMEM errors
-      LERNA_ARGS: --concurrency 1
+      LERNA_ARGS: --concurrency=1
     steps:
       - checkout
-      - restore_cache_dist_directories
       - install_node_dependencies
       - persist_to_workspace:
           root: .
@@ -422,14 +313,12 @@ jobs:
     executor: node
     environment:
       # required to prevent ENOMEM errors
-      LERNA_ARGS: --concurrency 1
+      LERNA_ARGS: --concurrency=1
     steps:
       - attach_workspace:
           at: .
       - detect_root_change
-      - restore_cache_dist_directories
       - build_packages
-      - save_cache_dist_directories
       - build_storybook
       - persist_to_workspace:
           root: .
@@ -443,7 +332,7 @@ jobs:
     executor: node
     environment:
       # required to prevent ENOMEM errors
-      LERNA_ARGS: --concurrency 1
+      LERNA_ARGS: --concurrency=1
     steps:
       - attach_workspace:
           at: .
@@ -459,7 +348,7 @@ jobs:
       component_type:
         type: string
     environment:
-      LERNA_ARGS: --concurrency 1
+      LERNA_ARGS: --concurrency=1
     steps:
       - attach_workspace:
           at: .
@@ -468,6 +357,8 @@ jobs:
 
   browser-tests:
     executor: node
+    environment:
+      LERNA_ARGS: --concurrency=1
     parameters:
       component_type:
         type: string
@@ -503,12 +394,11 @@ jobs:
     executor: node
     environment:
       # required to prevent ENOMEM errors
-      LERNA_ARGS: --concurrency 1
+      LERNA_ARGS: --concurrency=1
       RUN_ALL: true
     steps:
       - checkout
       - install_node_dependencies
-      - restore_cache_dist_directories
       - run:
           name: Deploy
           command: yarn storybook:deploy
