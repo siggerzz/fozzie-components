@@ -24133,7 +24133,7 @@ turbo-windows-arm64@1.2.8:
   resolved "https://registry.yarnpkg.com/turbo-windows-arm64/-/turbo-windows-arm64-1.2.8.tgz#3710e92bb99d76e62cf3928650710a892157e101"
   integrity sha512-usARU7a51r8bY+Z6d7bO3N+97x2C4d2PftbDQaTTBuHQCdbYoZSKhiTPTJfrij8FaxVWjtfoTBxlTCh3mzuNOQ==
 
-turbo@^1.2.6:
+turbo@1.2.8:
   version "1.2.8"
   resolved "https://registry.yarnpkg.com/turbo/-/turbo-1.2.8.tgz#e2cc53eb62797a22cd6b7b34f47a4494a4793110"
   integrity sha512-Ms5ZvRlTjl3RF+ccWuGK2Gzgm4Zvr6mtaNwtBJR48u8gcDRjg1eSrpkwvCD+ENEVeQ39MxKjNS51ZYPIBnnhUw==
