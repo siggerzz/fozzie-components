@@ -3,7 +3,7 @@
   "version": "7.6.0",
   "private": true,
   "scripts": {
-    "build": "cross-env-shell \"turbo run build $LERNA_ARGS --concurrency=1 --stream\"",
+    "build": "cross-env-shell \"turbo run build --concurrency=1 $LERNA_ARGS --stream\"",
     "bundlewatch": "cross-env-shell \"bundlewatch --config bundlewatch.config.js\"",
     "lint": "cross-env-shell \"turbo run lint $LERNA_ARGS --stream\"",
     "lint:fix": "turbo run lint -- --fix",
