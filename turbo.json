@@ -11,6 +11,7 @@
         "cache": false
       },
       "storybook:build": {
+        "dependsOn": ["build"],
         "cache": false
       },
       "storybook:build-changed": {
