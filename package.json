@@ -102,7 +102,7 @@
     "sass-loader": "10.2.1",
     "stylelint": "13.13.1",
     "stylelint-scss": "3.21.0",
-    "turbo": "1.2.15",
+    "turbo": "1.2.16",
     "vue": "2.6.10",
     "vue-svg-loader": "0.16.0",
     "vue-template-compiler": "2.6.10",
