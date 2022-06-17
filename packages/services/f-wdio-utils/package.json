@@ -39,6 +39,6 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "4.5.16",
-    "axe-core": "4.3.3"
+    "axe-core": "4.4.2"
   }
 }
