@@ -51,7 +51,7 @@
     "@braze/web-sdk": "3.5.1",
     "@vue/cli-plugin-babel": "4.5.16",
     "@vue/cli-plugin-unit-jest": "4.5.16",
-    "core-js": "3.23.1",
+    "core-js": "3.23.3",
     "jest-extended": "0.11.5",
     "mockdate": "3.0.5",
     "js-cookie": "2.2.1",
