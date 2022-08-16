@@ -21,7 +21,7 @@
     "@storybook/addon-essentials": "6.5.9",
     "@storybook/addon-knobs": "6.4.0",
     "@storybook/addon-links": "6.5.9",
-    "@storybook/storybook-deployer": "2.8.11",
+    "@storybook/storybook-deployer": "2.8.12",
     "@storybook/theming": "6.5.9",
     "@storybook/vue": "6.5.9",
     "cookie-universal": "2.2.1",
