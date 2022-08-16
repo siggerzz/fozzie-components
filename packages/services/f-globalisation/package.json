@@ -40,7 +40,7 @@
     "extends @justeat/browserslist-config-fozzie"
   ],
   "dependencies": {
-    "vue-i18n": "8.27.1"
+    "vue-i18n": "8.27.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "4.5.16",
