@@ -4654,10 +4654,10 @@
   resolved "https://registry.yarnpkg.com/@percy/sdk-utils/-/sdk-utils-1.1.2.tgz#08f973985dc545b4551dc9df1589d2be6465930c"
   integrity sha512-lTKNbPpWg3vdTu+XZ5iOuAaNvcW5CKZOwTe2WkrFYO5LxckTvS93GGq6RcFqvaVRcAjhEBseEKRz36Bwub/sWg==
 
-"@percy/webdriverio@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@percy/webdriverio/-/webdriverio-2.0.1.tgz#6793ffd6fd69e91a9252b5e83a36f5b2fda2a818"
-  integrity sha512-gF8owItuWKy1JmCpue0J4YiEzF80ysI7IPV9iFM9392U7CE3ETQldi4Whzl06b8fn9/+owvHkFZkhQKptdTk3g==
+"@percy/webdriverio@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@percy/webdriverio/-/webdriverio-2.0.2.tgz#3274676550a62cc745bda588eb6eba5a8592160a"
+  integrity sha512-g/r9Vku4P1TImwIkdMep1H+bOaRLLqgd2TdQ58S/uMwJVFTmcsKV2bvskZcwlS85RLGNgxCdxpFB90aNKdb3Yg==
   dependencies:
     "@percy/sdk-utils" "^1.0.0"
 
