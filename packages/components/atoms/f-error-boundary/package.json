@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "core-js": "3.23.3",
-    "vite": "2.9.12",
+    "vite": "2.9.15",
     "vite-plugin-vue2": "1.9.3"
   }
 }
