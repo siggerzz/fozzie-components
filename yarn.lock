@@ -26255,10 +26255,10 @@ wdio-chromedriver-service@7.3.2:
     split2 "^3.2.2"
     tcp-port-used "^1.0.1"
 
-wdio-video-reporter@3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/wdio-video-reporter/-/wdio-video-reporter-3.2.1.tgz#a8412a7ab4144bd9e8a6859c62dc5bb9dfbc98a5"
-  integrity sha512-Cxz+UUeQf2CJ8TI+TaPoeU+E2SE56ANq2057CIdsOW1eEEV6MFax2QBvsCrDiSAq4E5lFxgoOckambwDvaxTDA==
+wdio-video-reporter@3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/wdio-video-reporter/-/wdio-video-reporter-3.2.3.tgz#fc943fbb05bee3d1708338e90b20baacbcfafa84"
+  integrity sha512-bsZxplnKKScWM9BsBd2TjQYcAwhevjYTZa0nQQSAFW7VsH/tVncGoXIWd96fuyUy/vpbJ25gMSiKjGnOAa8VPg==
   dependencies:
     "@ffmpeg-installer/ffmpeg" "^1.0.20"
     "@wdio/allure-reporter" "^7.7.3"
