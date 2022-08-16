@@ -12,7 +12,7 @@
     "http-server": "0.13.0",
     "vue": "2.6.10",
     "vue-i18n": "8.27.2",
-    "vue-router": "3.5.3"
+    "vue-router": "3.5.4"
   },
   "devDependencies": {
     "@justeat/f-http": "0.8.0",
