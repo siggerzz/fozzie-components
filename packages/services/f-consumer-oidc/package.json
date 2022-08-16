@@ -36,8 +36,8 @@
     "ci:test:services": "yarn test"
   },
   "devDependencies": {
-    "@babel/core": "7.18.5",
-    "@babel/preset-env": "7.18.2",
+    "@babel/core": "7.18.10",
+    "@babel/preset-env": "7.18.10",
     "babel-loader": "8.2.5",
     "jest": "25.5.4",
     "jest-teamcity": "1.11.0",
