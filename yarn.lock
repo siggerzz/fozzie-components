@@ -10086,10 +10086,10 @@ cookie-signature@1.0.6:
   resolved "https://registry.yarnpkg.com/cookie-signature/-/cookie-signature-1.0.6.tgz#e303a882b342cc3ee8ca513a79999734dab3ae2c"
   integrity sha1-4wOogrNCzD7oylE6eZmXNNqzriw=
 
-cookie-universal@2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/cookie-universal/-/cookie-universal-2.2.1.tgz#9ba3ffcfaa04afbfc0ba34d6cfba7fb56ef7f60f"
-  integrity sha512-HMm8mNbMJ81IER5BZ3QF0wz5OA/od4jDB6agNwJjJ7oDnBnQBQwUJNeCXrYCBiCKh+ZzHDQ74D96HjUTHQHjsg==
+cookie-universal@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/cookie-universal/-/cookie-universal-2.2.2.tgz#415a4d67b6f7f0819c4914cd69b8c2f496111d30"
+  integrity sha512-nUXF6HH2YKbn8vGcdSzWJhjRkDHbnbekuVu2nsRu00zYsX7o/H3xGJRlPVoM4wX/8cpJYpyi9nDt+boER0Wjug==
   dependencies:
     "@types/cookie" "^0.3.3"
     cookie "^0.4.0"
