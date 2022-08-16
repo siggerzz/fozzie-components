@@ -53,6 +53,6 @@
     "vue": "vue@^3.0.0-0 || ^2.0.0"
   },
   "dependencies": {
-    "vue-demi": "0.13.1"
+    "vue-demi": "0.13.8"
   }
 }
