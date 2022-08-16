@@ -107,7 +107,7 @@
     "vue-svg-loader": "0.16.0",
     "vue-template-compiler": "2.6.10",
     "wdio-chromedriver-service": "7.3.2",
-    "wdio-video-reporter": "3.2.1",
+    "wdio-video-reporter": "3.2.3",
     "webdriverio": "7.20.2"
   },
   "bugs": {
