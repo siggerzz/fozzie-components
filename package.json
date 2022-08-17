@@ -52,7 +52,7 @@
     "@babel/plugin-proposal-class-properties": "7.17.12",
     "@babel/plugin-proposal-optional-chaining": "7.17.12",
     "@babel/preset-env": "7.18.10",
-    "@justeat/browserslist-config-fozzie": "1.2.0",
+    "@justeat/browserslist-config-fozzie": "2.0.0",
     "@justeat/eslint-config-fozzie": "5.1.0",
     "@justeat/f-wdio-utils": "0.8.1",
     "@justeat/fozzie": "8.3.0",

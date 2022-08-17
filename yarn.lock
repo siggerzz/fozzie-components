@@ -3177,10 +3177,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@justeat/browserslist-config-fozzie@1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@justeat/browserslist-config-fozzie/-/browserslist-config-fozzie-1.2.0.tgz#52d46d15c2ce8168c803af3135326554c81c27c6"
-  integrity sha512-hChL9H75HzClJJb3+Xbl/EvJLOUV6cXYNciUZN2TNwsGpBUj39l+YbN+d/r4Or+0o7qFshtoTjLL+Wn9HccCqw==
+"@justeat/browserslist-config-fozzie@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@justeat/browserslist-config-fozzie/-/browserslist-config-fozzie-2.0.0.tgz#015aa3f3efaf2e95077686b19456efa93a0a6f20"
+  integrity sha512-gUX90bd2gUZnzKBS5qS7GStcov3gIAxWofHJnP+lKIwq4V0QoAAysMSAldC+q+eL+YdGuHsmB+jGZ3Usjdgd8A==
 
 "@justeat/eslint-config-fozzie@5.1.0":
   version "5.1.0"
