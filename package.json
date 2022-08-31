@@ -55,7 +55,7 @@
     "@justeat/browserslist-config-fozzie": "1.2.0",
     "@justeat/eslint-config-fozzie": "5.1.0",
     "@justeat/f-wdio-utils": "0.8.1",
-    "@justeat/fozzie": "8.3.0",
+    "@justeat/fozzie": "9.3.1",
     "@justeat/stylelint-config-fozzie": "2.3.0",
     "@percy/cli": "1.3.1",
     "@percy/webdriverio": "2.0.2",
