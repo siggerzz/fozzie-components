@@ -38,7 +38,7 @@
     "ci:test:services": "yarn test"
   },
   "devDependencies": {
-    "@babel/core": "7.18.10",
+    "@babel/core": "7.18.13",
     "@babel/preset-env": "7.18.10",
     "babel-loader": "8.2.5",
     "eslint-plugin-json-schema-validator": "1.2.49",
