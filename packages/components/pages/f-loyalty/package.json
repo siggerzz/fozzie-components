@@ -54,10 +54,10 @@
   "peerDependencies": {
     "@justeat/browserslist-config-fozzie": ">=1.2.0",
     "@justeat/f-trak": "0.7.1",
-    "@braze/web-sdk": "3.5.1"
+    "@braze/web-sdk": "4.4.0"
   },
   "devDependencies": {
-    "@braze/web-sdk": "3.5.1",
+    "@braze/web-sdk": "4.4.0",
     "@justeat/f-breadcrumbs": "3.1.0",
     "@justeat/f-button": "3.2.0",
     "@justeat/f-card": "3.6.0",

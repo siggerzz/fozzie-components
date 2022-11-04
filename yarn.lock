@@ -2155,10 +2155,10 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@braze/web-sdk@3.5.1":
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/@braze/web-sdk/-/web-sdk-3.5.1.tgz#04cd8e7021e13a690cd9c2ad7e7a3b5028d06178"
-  integrity sha512-Quvqs2RqTZK7+VUCwsGMT9EHYwiXUYwWJk441ly2F0yj64WK2GPvXy3XdIpXLCgWVhGg42WNJ4X6WBgfaF+3EQ==
+"@braze/web-sdk@4.4.0":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@braze/web-sdk/-/web-sdk-4.4.0.tgz#fa64d0644f16fce4804a2fb820572c0837260959"
+  integrity sha512-L4+M7KsG6Q4iXFadXqMmqZ0DmRvXIs/SkAGU2EiZZzCJ/Mfm+cYWvx7rrvhmTVhHsJsRpNxt1IDAChlZut6SLA==
 
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
