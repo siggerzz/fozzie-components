@@ -159,7 +159,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     environment:
-      name: github-pages
+      name: review-pr-${{ github.event.number }}
       url: ${{ steps.deployment.outputs.page_url }}
     permissions:
       contents: read
