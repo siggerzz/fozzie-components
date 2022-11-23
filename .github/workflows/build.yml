@@ -202,12 +202,14 @@ jobs:
         with:
           path: ./packages/storybook/storybook-static
           key: storybook-cache-${{ github.ref_name }}-${{ github.run_id }}
+      - name: Archive build output
+        run: "tar --dereference --directory packages/storybook/storybook-static -cvf artifact.tar ."
       # Upload Storybook Artifact.
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
           name: github-pages
-          path: ./packages/storybook/storybook-static
+          path: artifact.tar
       # Deploy Storybook.
       - name: Deploy to GitHub Pages
         id: deployment
