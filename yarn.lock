@@ -3597,18 +3597,18 @@
     axios "0.25.0"
     crypto-js "4.1.1"
 
-"@justeat/fozzie@8.3.0":
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/@justeat/fozzie/-/fozzie-8.3.0.tgz#9477df7b8a498a5d95642c2ad6fef5bea5ce6b70"
-  integrity sha512-ELM4OEOVqDacu1G3fBH/Etl2mu/Tt9eeC43OHnhdkbCf3DX5ywZJjTle7C4ZeF6qSPUnYUkUhLk1osBBhfPc1Q==
+"@justeat/fozzie@10.9.1":
+  version "10.9.1"
+  resolved "https://registry.yarnpkg.com/@justeat/fozzie/-/fozzie-10.9.1.tgz#17ba52fa06f26d143cc7923a3df97981f96859ab"
+  integrity sha512-rVwHsh8BJ4DqShYNS75GAptirpHx9cIKnc2Oawv9lRvMlaX2wDjkRE96sZ2FK/6DePkNOvkynDBXd+tJyw7JoQ==
   dependencies:
-    "@justeat/pie-design-tokens" "1.4.0"
-    include-media "1.4.10"
+    "@justeat/pie-design-tokens" "3.0.0"
+    include-media "github:eduardoboucas/include-media#2.0-release"
 
-"@justeat/pie-design-tokens@1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@justeat/pie-design-tokens/-/pie-design-tokens-1.4.0.tgz#adb4b3b7f5ed9ac9691e67e02b02264acd6dcfbf"
-  integrity sha512-V+lBWi4Q7WjYRYYTAm2rJfDqjePArhHrgC4pB8vsQXp4uPmEUG/6cJa4K8DArADxLA924QESE3Akmtn8nAe5dw==
+"@justeat/pie-design-tokens@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@justeat/pie-design-tokens/-/pie-design-tokens-3.0.0.tgz#734fe0093fc825d9f5e0d696512655751c15e0f8"
+  integrity sha512-4ZlMO0aoOBbGta/ygWzu2XN5SExfOUVG5ps+5dHTMhbOBtVY+3EywxapK/sosBz3ItB1M/PbHkbeoaUI6o3lgA==
   dependencies:
     jsonc-parser "2.2.0"
     lodash.merge "4.6.2"
@@ -14706,6 +14706,11 @@ include-media@1.4.10:
   version "1.4.10"
   resolved "https://registry.yarnpkg.com/include-media/-/include-media-1.4.10.tgz#7a311c92c396c808504ec6a5365115d30571f259"
   integrity sha512-TymQzKF7oWHbItEcEHOCponZ90lRr1I9QbYeD+qCxXy4Z0/pSpS4Ocz2bq3FMOERlXXrY9Sawsh9GjiObVQA6A==
+
+"include-media@github:eduardoboucas/include-media#2.0-release":
+  version "2.0.0"
+  uid a3c0288e5b22cc746cc2d320d0a374b2ed9d0aeb
+  resolved "https://codeload.github.com/eduardoboucas/include-media/tar.gz/a3c0288e5b22cc746cc2d320d0a374b2ed9d0aeb"
 
 indent-string@^2.1.0:
   version "2.1.0"
