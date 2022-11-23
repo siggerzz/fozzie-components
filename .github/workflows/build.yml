@@ -49,34 +49,34 @@ jobs:
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: yarn --prefer-offline
 
-  danger:
-    if: ${{ github.ref != 'refs/heads/master' }}
-    needs: install
-    runs-on: ubuntu-latest
-    steps:
-      # Checkout the Repo.
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - name: Setup Node
-        # Setup Node 16.
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: "yarn"
-      # Restore node_modules if cache exists. If not, cache is created at end of build.
-      - name: Cache Node Modules
-        id: cache-node-modules
-        uses: actions/cache@v2
-        with:
-          path: "**/node_modules"
-          key: node-modules-${{ hashFiles('**/yarn.lock') }}
-      # Run Danger Checks.
-      - name: Run Danger Checks
-        run: yarn danger ci --failOnErrors
-        env:
-          DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
+  # danger:
+  #   if: ${{ github.ref != 'refs/heads/master' }}
+  #   needs: install
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     # Checkout the Repo.
+  #     - name: Checkout
+  #       uses: actions/checkout@v3
+  #       with:
+  #         fetch-depth: 0
+  #     - name: Setup Node
+  #       # Setup Node 16.
+  #       uses: actions/setup-node@v3
+  #       with:
+  #         node-version: 16
+  #         cache: "yarn"
+  #     # Restore node_modules if cache exists. If not, cache is created at end of build.
+  #     - name: Cache Node Modules
+  #       id: cache-node-modules
+  #       uses: actions/cache@v2
+  #       with:
+  #         path: "**/node_modules"
+  #         key: node-modules-${{ hashFiles('**/yarn.lock') }}
+  #     # Run Danger Checks.
+  #     - name: Run Danger Checks
+  #       run: yarn danger ci --failOnErrors
+  #       env:
+  #         DANGER_GITHUB_API_TOKEN: ${{ secrets.DANGER_GITHUB_API_TOKEN }}
 
   build:
     needs: install
