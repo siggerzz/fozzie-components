@@ -206,7 +206,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          name: storybook-static
+          name: github-pages
           path: ./packages/storybook/storybook-static
       # Deploy Storybook.
       - name: Deploy to GitHub Pages
